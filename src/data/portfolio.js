@@ -16,7 +16,7 @@ export default [
    {
       title: 'Student Advising System',
       imgUrl: '/assets/Screenshot 2024-05-13 135944.png',
-      bodyText: "An advising scheduling system for advisors and students of UTA.",
+      bodyText: "An advising scheduling system for advisors and students. This project was made for CSE 3311 at UTA ",
       stack: ['React', 'Tailwind', 'Express.js','MongoDB'],
       link: 'https://github.com/bchau1010/CSE_3311_Advising_Appointment_System.git',
    },
