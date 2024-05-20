@@ -25,7 +25,7 @@ export default [
       imgUrl: '/assets/Screenshot 2024-05-19 195636.png',
       bodyText: "A simple portfolio website that allow me to showcase my work.",
       stack: ['React', 'Tailwind'],
-      link: '',
+      link: 'https://github.com/bchau1010/portfolio.git',
    },
    {
       title: 'B-Tree in C++',
