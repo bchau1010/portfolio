@@ -3,11 +3,13 @@ import timeline from '../data/timeline';
 import TimelineItem from './TimelineItem';
 import Title from './Title';
 
+//similar to porfolio page
 function Timeline() {
    return (
-      <div className="flex flex-col md:flex-row justify-center my-20">
+      <>
+      <div id="timeline" className=" flex flex-col md:flex-row justify-center my-20">
          <div className="w-full md:w-7/12">
-            <Title>Timeline</Title>
+            <Title>Projects Timeline</Title>
             {timeline.map(item => (
                <TimelineItem 
                   year={item.year}
@@ -18,6 +20,8 @@ function Timeline() {
             ))}
          </div>
       </div>
+      </>
+      
    )
 }
 

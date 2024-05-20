@@ -4,7 +4,8 @@ import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
-
+import Aboutme from './components/Aboutme';
+import Techstack from './components/Techstack';
 
 // implement dark mode via react via useEffect and useState
 function App() {
@@ -73,29 +74,43 @@ function App() {
 		</svg>
 	);
 
-//The physical button for switching between sun and moon
+	//The physical button for switching between sun and moon
 	//onClick: call the handleThemeSwitch function
-		//then change to sun to moon depend on the theme
-  return (
-	<>
-		<button
-			type="button"
-			onClick={handleThemeSwitch}
-			className="fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
-		>
-			{theme === 'dark' ? sun : moon}
-		</button>
-		<div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
-			<div className="max-w-5xl w-11/12 mx-auto">
-				<Intro />
-				<Portfolio />
-				<Timeline />
-				<Contact />
-				<Footer />
+	//then change to sun to moon depend on the theme
+	return (
+		<>
+			<div className="bg-light-background dark:bg-dark-background text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+				<div className="fixed top-0 left-0 w-full z-50">
+					<div className="py-3 mx-4 md:mx-auto max-w-5xl w-11/12 mx-auto bg-dark-background dark:bg-light-background rounded-md flex justify-between items-center">
+						<button
+							type="button"
+							onClick={handleThemeSwitch}
+							className="ml-5 bg-dark-background text-dark-background dark:bg-light-background text-lg p-1 rounded-md border border-light-background dark:border-dark-background">
+							{theme === 'dark' ? sun : moon}
+						</button>
+						<div className="mr-5 text-light-background dark:text-dark-background flex items-center space-x-4 text-xl font-bold">
+							<ul className="flex space-x-4 ">
+								<li><a href="#intro" className="hover:text-gray-500 dark:hover:text-gray-500">Home</a></li>
+								<li><a href="#projects" className="hover:text-gray-500 dark:hover:text-gray-500">Projects</a></li>
+								<li><a href="#timeline" className="hover:text-gray-500 dark:hover:text-gray-500">Timeline</a></li>
+								<li><a href="#contact" className="hover:text-gray-500 dark:hover:text-gray-500">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div className="max-w-5xl w-11/12 mx-auto pt-5">
+					<Intro />
+					<Aboutme />
+					<Techstack />
+					<Portfolio />
+					<Timeline/>
+					<Contact />
+					<Footer />
+				</div>
 			</div>
-		</div>
-	 </>
-  )
+
+		</>
+	)
 }
 
 export default App

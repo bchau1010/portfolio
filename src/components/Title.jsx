@@ -1,5 +1,7 @@
 import React from 'react';
 
+//this is to display title name for each section of the website
+//must be import over to timeline in order for it to take effect
 function Title({ children, id }) {
    return (
       <h1

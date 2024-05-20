@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+// orderedlist is the circle and line, play around with style to see what fit best 
 function TimelineItem({ year, title, duration, details }) {
    return (
       <ol className="flex flex-col md:flex-row relative border-l border-stone-200 dark:border-stone-700">
