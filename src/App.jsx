@@ -92,7 +92,6 @@ function App() {
 							<ul className="flex space-x-4 ">
 								<li><a href="#intro" className="hover:text-gray-500 dark:hover:text-gray-500">Home</a></li>
 								<li><a href="#projects" className="hover:text-gray-500 dark:hover:text-gray-500">Projects</a></li>
-								<li><a href="#timeline" className="hover:text-gray-500 dark:hover:text-gray-500">Timeline</a></li>
 								<li><a href="#contact" className="hover:text-gray-500 dark:hover:text-gray-500">Contact</a></li>
 							</ul>
 						</div>
@@ -113,4 +112,5 @@ function App() {
 	)
 }
 
+//<li><a href="#timeline" className="hover:text-gray-500 dark:hover:text-gray-500">Timeline</a></li>
 export default App
