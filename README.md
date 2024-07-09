@@ -1,4 +1,4 @@
-ALL CREDIT GO TO @fknight ON YOUTUBE
+CREDIT GO TO @fknight ON YOUTUBE FOR THE INITIAL DESIGN
 
 YOUTUBE: https://www.youtube.com/@fknight
 
