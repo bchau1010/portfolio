@@ -59,6 +59,16 @@ function Techstack() {
                     className=" p-2  inline-flex items-center space-x-2 rounded-full">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" width="70" height="70" viewBox="0 0 70 70" />
                 </a>
+                <a href=""
+                    target="_blank"
+                    className="bg-dark-background p-2  inline-flex items-center space-x-2 rounded-full">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original-wordmark.svg" width="70" height="70" viewBox="0 0 70 70" />
+                </a>
+                 <a href=""
+                    target="_blank"
+                    className="bg-light-background p-2  inline-flex items-center space-x-2 rounded-full">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="70" height="70" viewBox="0 0 70 70" />
+                </a>
                 
             </div>
             <br></br>
@@ -71,7 +81,7 @@ export default Techstack;
 
 
 /*
-<a href=""
+                <a href=""
                     target="_blank"
                     className="bg-dark-background p-2  inline-flex items-center space-x-2 rounded-full">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original-wordmark.svg" width="70" height="70" viewBox="0 0 70 70" />
