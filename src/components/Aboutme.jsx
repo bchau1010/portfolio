@@ -12,10 +12,11 @@ function Aboutme() {
                 </div>
             </h1>
             <p className="self-start text-lg max-w-xl mb-6 font-bold">
-                Hi, I'm Bao Chau 👋, a Software Engineering student at The University of Texas at Arlington. I am the backend guy for the majority of the projects that I've been a part of, and I love every minute of it! My core interests right now are scalable systems, database systems, AI integration, and web development.
+                Hi, I'm Bao Chau 👋, a recent Software Engineering graduate at The University of Texas at Arlington. I am the backend guy for the majority of the projects that I've been a part of, and I love every minute of it! 
+                My core interests right now are Scalable Systems, Information Security,  Machine Learning, Datamining, AI, and Web Development.
                 <br/>
                 <br/>
-                I am open to collaborating on future projects, especially those that involve the areas mention above. If you like what I've done here, feel free to contact me using the form below or reach out to me via linkedin. 
+                I am open for work and to collaborating on future projects, especially those that involve the areas mention above. If you like what I've done here, feel free to contact me using the form below or reach out to me via linkedin. 
                 <br />
                 <br></br>
             </p>
