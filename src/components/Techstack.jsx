@@ -44,11 +44,7 @@ function Techstack() {
                     className=" bg-light-background p-2  inline-flex items-center space-x-2 rounded-full">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" width="70" height="70" viewBox="0 0 70 70" />
                 </a>
-                <a href="https://tailwindcss.com/"
-                    target="_blank"
-                    className=" p-2  inline-flex items-center space-x-2 rounded-full">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="70" height="70" viewBox="0 0 70 70" />
-                </a>
+               
                 <a href="https://react.dev/"
                     target="_blank"
                     className=" p-2  inline-flex items-center space-x-2 rounded-full">
@@ -81,6 +77,11 @@ export default Techstack;
 
 
 /*
+                 <a href="https://tailwindcss.com/"
+                    target="_blank"
+                    className=" p-2  inline-flex items-center space-x-2 rounded-full">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="70" height="70" viewBox="0 0 70 70" />
+                </a>
                 <a href=""
                     target="_blank"
                     className="bg-dark-background p-2  inline-flex items-center space-x-2 rounded-full">

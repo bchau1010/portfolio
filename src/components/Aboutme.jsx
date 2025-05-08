@@ -12,7 +12,9 @@ function Aboutme() {
                 </div>
             </h1>
             <p className="self-start text-lg max-w-xl mb-6 font-bold">
-                Hi, I'm Bao Chau 👋, a recent Software Engineering graduate at The University of Texas at Arlington. I am the backend guy for the majority of the projects that I've been a part of, and I love every minute of it! 
+                Hi, I'm Bao Chau 👋, a recent Software Engineering graduate at The University of Texas at Arlington. I am the backend guy for the majority of the projects that I've been a part of, and I love every minute of it!
+                <br/>
+                <br/> 
                 My core interests right now are Scalable Systems, Information Security,  Machine Learning, Datamining, AI, and Web Development.
                 <br/>
                 <br/>
