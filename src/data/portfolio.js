@@ -57,7 +57,7 @@ export default [
    },
    {
       title: 'Cookie Track',
-      imgUrl: '/assets/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif',
+      imgUrl: '/assets/cookietrack_logo.png',
       bodyText: "The app is designed to streamline the management of Girl Scout cookie sales by tracking order requests, order statuses, cookie inventory, and rewards for girl scouts.",
       stack: ['Node.js', 'Express.js', 'Firebase', 'SendGrid'],
       link: 'https://github.com/Thin-Mint-Techies/CookieTrack.git',
@@ -71,7 +71,7 @@ export default [
    },
    {
       title: 'Cryptography',
-      imgUrl: '/assets/cryto.webp',
+      imgUrl: '/assets/crypto.webp',
       bodyText: "An API that support Key generation, file hashing, and encryption/decryption of media files using various algorithms such as AES, DES, and RSA.",
       stack: ['Flask', 'Firebase','cryptography'],
       link: 'https://github.com/bchau1010/Cryptography-and-Steganography.git',
