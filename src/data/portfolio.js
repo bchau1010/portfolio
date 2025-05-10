@@ -9,14 +9,14 @@ export default [
    {
       title: 'Virtual Chef',
       imgUrl: '/assets/icon.png',
-      bodyText: "This app allow user to turn whatever they have in their fridge into actual meal using suggested recipes.",
+      bodyText: "Have left over ingredients? Don't know what to cook? Virtual Chef is here to help! This app allows users to look up or input their ingredients and get recipe suggestions. user can also save their favorite recipes.",
       stack: ['Android Studio', 'Flask', 'OpenAI API', 'Firebase'],
       link: 'https://github.com/bchau1010/VirtualChef.git',
    },
    {
       title: 'Student Advising System',
       imgUrl: '/assets/Screenshot 2024-05-13 135944.png',
-      bodyText: "An advising scheduling system for advisors and students. This project was made for CSE 3311 at UTA ",
+      bodyText: "An advising scheduling system for advisors and students. This project was made for CSE 3311 at UTA",
       stack: ['React', 'Tailwind', 'Express.js','MongoDB'],
       link: 'https://github.com/bchau1010/CSE_3311_Advising_Appointment_System.git',
    },
@@ -45,14 +45,14 @@ export default [
       title: 'Wine data analysis through Support Vector Machine',
       imgUrl: '/assets/wine.webp',
       bodyText: "Use classification method SVM to classify the wine data set. Utilized the 80-20 data splitting method to train and test the model. ",
-      stack: ['python', 'numpy', 'pandas', 'skleanr','matplotlib'],
+      stack: ['python', 'numpy', 'pandas', 'sklearn','matplotlib'],
       link: 'https://github.com/bchau1010/Wine-data-analysis-through-SVM.git',
    },
    {
       title: 'Wine data Classification (K-means and Agglomerative Hierarchical Clustering)',
       imgUrl: '/assets/wine.webp',
       bodyText: "Use two classification methods K-means and Agglomerative Hierarchical Clustering to classify the wine data set.",
-      stack: ['python', 'numpy', 'pandas', 'skleanr', 'matplotlib'],
+      stack: ['python', 'numpy', 'pandas', 'sklearn', 'matplotlib'],
       link: 'https://github.com/bchau1010/Wine-data-classification-through-K-means-and-Agglomerative-Hierarchical-Clustering.git',
    },
    {

@@ -35,9 +35,7 @@ function Techstack() {
                 <a href="https://nodejs.org/en"
                     target="_blank"
                     className=" p-2  inline-flex items-center space-x-2 rounded-full">
-
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="70" height="70" viewBox="0 0 70 70" />
-
                 </a>
                 <a href="https://expressjs.com/"
                     target="_blank"
@@ -55,15 +53,25 @@ function Techstack() {
                     className=" p-2  inline-flex items-center space-x-2 rounded-full">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" width="70" height="70" viewBox="0 0 70 70" />
                 </a>
-                <a href=""
+                <a href="https://firebase.google.com/"
                     target="_blank"
                     className="bg-dark-background p-2  inline-flex items-center space-x-2 rounded-full">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original-wordmark.svg" width="70" height="70" viewBox="0 0 70 70" />
                 </a>
-                 <a href=""
+                 <a href="https://flask.palletsprojects.com/en/stable/"
                     target="_blank"
                     className="bg-light-background p-2  inline-flex items-center space-x-2 rounded-full">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="70" height="70" viewBox="0 0 70 70" />
+                </a>
+                <a href="https://www.docker.com/"
+                    target="_blank"
+                    className=" p-2  inline-flex items-center space-x-2 rounded-full">
+                    <img src="portfolio\public\assets\docker-svgrepo-com.svg" width="70" height="70" viewBox="0 0 70 70" />
+                </a>
+                <a href="https://cloud.google.com/?hl=en"
+                    target="_blank"
+                    className=" p-2  inline-flex items-center space-x-2 rounded-full">
+                    <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="70" height="70" viewBox="0 0 70 70" />
                 </a>
                 
             </div>
@@ -113,10 +121,17 @@ export default Techstack;
                     className=" p-2  inline-flex items-center space-x-2 rounded-full">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" width="70" height="70" viewBox="0 0 70 70" />
                 </a>
-                <a href=""
+
+                <a href="https://www.docker.com/"
                     target="_blank"
                     className=" p-2  inline-flex items-center space-x-2 rounded-full">
+                    <img src="portfolio\public\assets\docker-svgrepo-com.svg" width="70" height="70" viewBox="0 0 70 70" />
+                </a>
+                
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" width="70" height="70" viewBox="0 0 70 70" />
+                <a href="https://cloud.google.com/?hl=en"
+                    target="_blank"
+                    className=" p-2  inline-flex items-center space-x-2 rounded-full">
+                    <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="70" height="70" viewBox="0 0 70 70" />
                 </a>
 */
