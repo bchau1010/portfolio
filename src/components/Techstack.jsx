@@ -66,7 +66,7 @@ function Techstack() {
                 <a href="https://www.docker.com/"
                     target="_blank"
                     className=" p-2  inline-flex items-center space-x-2 rounded-full">
-                    <img src="portfolio\public\assets\docker-svgrepo-com.svg" width="70" height="70" viewBox="0 0 70 70" />
+                    <img src="assets\docker-svgrepo-com.svg" width="70" height="70" viewBox="0 0 70 70" />
                 </a>
                 <a href="https://cloud.google.com/?hl=en"
                     target="_blank"
